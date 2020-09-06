@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rui-Projects</title>
+
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	
+	<script type='text/javascript'>
+$(document).ready(function(){ 
+    $(window).scroll(function(){ 
+        if ($(this).scrollTop() > 100) { 
+            $('#scroll').fadeIn(); 
+        } else { 
+            $('#scroll').fadeOut(); 
+        } 
+    }); 
+    $('#scroll').click(function(){ 
+        $("html, body").animate({ scrollTop: 0 }, 600); 
+        return false; 
+    }); 
+});
+</script>
+
+<script type='text/javascript'>
+jQuery( document ).ready(function($) {
+    $('.vidproj1').click(function() {
+        this.paused ? this.play() : this.pause();
+    });
+});
+
+jQuery( document ).ready(function($) {
+    $('.vidproj2').click(function() {
+        this.paused ? this.play() : this.pause();
+    });
+});
+
+jQuery( document ).ready(function($) {
+    $('.vidproj3').click(function() {
+        this.paused ? this.play() : this.pause();
+    });
+});
+
+jQuery( document ).ready(function($) {
+    $('.vidproj4').click(function() {
+        this.paused ? this.play() : this.pause();
+    });
+});
+
+</script>
+
+
+	<script type="text/javascript">
+		
+		function changeColor(){
+
+    		document.getElementById('contactLink').style="color: yellow;"
+    		document.getElementById('projectsLink').style= "color: white;"
+
+    	}
+
+
+    	function changeAgain(){
+
+    		document.getElementById('contactLink').style="color: white;"
+    		document.getElementById('projectsLink').style= "color: yellow;"
+    	
+    	}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+});
+
+
+
+
+	</script>
+
+</head>
+<body style="background-color:black;">
+<a href="javascript:void(0);" id="scroll" title="Scroll to Top" style="display: none;">T<span></span></a>
+
+<div id="barmenu">
+	<ul class="nav">
+	  <li><a id="profilesLink" href="index.html">Profiles</a></li>
+	  <li><img id="ponto" src="images/Menu/ponto.png"></li>
+	  <li><a id="projectsLink" style="color:yellow;">Projects</a></li>
+	  <li><img id="ponto" src="images/Menu/ponto.png"></li>
+	  <li><a id="aboutLink" href="rui_about.html">About</a></li>
+	  <li><img id="ponto" src="images/Menu/ponto.png"></li>
+	  <li><a id="contactLink"  href="#rui_contact" onClick="changeColor()">Contact</a></li>
+	</ul>
+</div>
+
+<div id="projs">
+<a href="#" class="top">top</a>
+	<!-- Imagem Projecto 1 -->
+	<a id="imagem-projecto1" href="#Projecto1" ><img src="images/Menu/projecto1.png" onmouseover="this.src='images/Menu/projecto1_hover.png'" onmouseout="this.src='images/Menu/projecto1.png'" onmousedown="this.src='images/Menu/projecto1_click.png'"></a >
+	
+	<!-- Imagem Projecto 2 -->
+	<a id="imagem-projecto2" href="#Projecto2"><img src="images/Menu/projecto2.png" onmouseover="this.src='images/Menu/projecto2_hover.png'" onmouseout="this.src='images/Menu/projecto2.png'" onmousedown="this.src='images/Menu/projecto2_click.png'"></a >
+	
+	<!-- Imagem Projecto 3 -->
+	<a id="imagem-projecto3" href="#Projecto3"><img src="images/Menu/projecto3.png" onmouseover="this.src='images/Menu/projecto3_hover.png'" onmouseout="this.src='images/Menu/projecto3.png'" onmousedown="this.src='images/Menu/projecto3_click.png'"></a >
+	
+	<!-- Imagem Projecto 4 -->
+	<a id="imagem-projecto4" href="#Projecto4"><img src="images/Menu/projecto4.png" onmouseover="this.src='images/Menu/projecto4_hover.png'" onmouseout="this.src='images/Menu/projecto4.png'" onmousedown="this.src='images/Menu/projecto4_click.png'"></a >
+			
+
+
+
+
+<div class="projects">
+
+
+	<!--PROJECTO 1 -->
+	<section id="Projecto1">
+	
+		 <div id="space"><br><br><br><br><br><br>  </div>
+
+		<div id="project1">
+			<img src="images/Rui/Projecto_1/comic_header.png">
+			<p id="title">Comic Flyer</p>
+			<p id="line">__________________</p>
+			<p id="projectdescription">The Comic Flyer application was the first project I developed for the tablet format. It is an application that brings first-hand audiovisual content and the latest news from the comicbook culture, from books to the big screen</p>
+			<br><br><br><br>
+
+			<img src="images/Rui/Projecto_1/comic_display.jpg">
+			
+			<video class="vidproj1" width="500" controls poster="images/Rui/Principal/2Play.png">
+		    	<source src="videos/Comic_Flyer.m4v" type="video/mp4">  
+		  	</video>
+
+		    <p id="title">Development</p>
+			<p id="line">__________________</p>
+			<p id="projectdescription">Comic flyer was born from the idea of searching for an application that establishes itself in a single space diverse contents from books, animated series, exclusive interviews to writers and publishers, among others. The project management has been developed in several bases and concepts to accommodate this type of projects</p>
+			
+			<br><br><br><br>
+
+			<img src="images/Rui/Projecto_1/comic_display2.jpg">
+
+			<div id="grey_space">   <br><br><br><br>   </div>
+
+		</div>
+	</section>
+
+	
+
+
+	<!--PROJECTO 2 -->
+	<section id="Projecto2">
+		<div id="project2">
+
+			<div id="nave">
+				<br><br>
+				<img id="imgNave" src="images/Rui/Projecto_2/obninbus_header.png">
+				<br><br>
+			</div>
+			
+			<div id="grey_space">   <br><br>   </div>
+
+
+			<p id="title2">OBNINBUS</p>
+			<p id="line2">__________________</p>
+			<p id="projectdescription2">Obninbus is a teaser of a fictional video game that aimed to develop 3D modeling, character design, and story telling capabilities</p>
+			<br><br><br><br>
+
+			
+			<div id="grey_space">   <br><br><br><br>   </div>
+
+			
+			<video class="vidproj2" width="500" controls poster="images/Rui/Principal/2Play.png">
+		    	<source src="videos/Obninbus.mp4" type="video/mp4">  
+		  	</video>
+
+
+		  	<div id="grey_space">   <br><br><br><br>   </div>
+
+
+			<p id="title2">The Story</p>
+			<p id="line2">__________________</p>
+			<p id="projectdescription2">In a distant galaxy, the system called Cellis, the planets Usion, Ratak, Proneum, Gemzar and Zarok joined cultures to cope with the times of oppression and instability caused by the fearsome Urakus. In a great alliance, a ship built and a crew formed, with one member from each planet, to enter the OBININBUS mission</p>
+			<br><br><br><br>
+
+			<div id="grey_space">   <br><br><br><br>   </div>
+
+
+			<img src="images/Rui/Projecto_2/corpo.png">
+			
+			
+			<div id="grey_space">   <br><br>  </div>
+
+			
+			<div id="imagesProj2">
+				<div class="side"> 
+					<img src="images/Rui/Projecto_2/corpo_esquerda.png">
+				</div>
+				<div class="side"> 
+					<img src="images/Rui/Projecto_2/corpo_direita.png">
+				</div>
+			</div>
+
+			<img src="images/Rui/Projecto_2/corpo_meio.png">
+			
+			<div id="grey_space">   <br><br><br><br>   </div>
+
+
+			<p id="title2">Modeling</p>
+			<p id="line2">__________________</p>
+			<p id="projectdescription2">The modeling of the models was done in the programs of Maya from the autodesk and Keyshot from the luxion. Once with the conceptions of art made, the construction of the models starts from their skeleton to their texture</p>
+			<br><br><br><br>
+
+			<div id="grey_space">   <br><br><br><br>   </div>
+
+
+			<img src="images/Rui/Projecto_2/corpo_fim.png">
+
+
+			<div id="grey_space">   <br><br>   </div>
+
+			<p id="title2">Character Design</p>
+			<p id="line2">__________________</p>
+			<p id="projectdescription2">Above we have the conception of the Crog character of the planet Zarok. He is a tall, yellow-eyed, reptilian character. It is a vengeful, protective, humble, and sometimes arrogant fighter. His wardrobe was inspired in the medieval armor and Marine soldiers</p>
+			<br><br><br><br>
+
+			<div id="grey_space">   <br><br><br><br>   </div>
+
+		</div>
+	</section>
+
+
+
+	<!--PROJECTO 3 -->
+	<section id="Projecto3">
+
+		<div id="project3">
+
+			<div id="nave">  <br>  
+
+				<p id="title3">AURA</p>
+				<p id="line3">__________________</p>
+				<p id="projectdescription3">Aura is an exhibition proposal for MoMa that counts on a collaboration between the studio Untold Arts and visual artist Mathias Müller. Together in an exhibition that brings the abstraction of his aura in art</p>
+				
+				<br><br><br>
+
+			</div>
+
+			<div id="nave">
+				<br><br>
+				<img id="imgNave" src="images/Rui/Projecto_3/topo.png">
+				<br><br><br>
+		
+			</div>
+
+			<div id="imagesProj3">
+				<div class="side2"> 
+					<img id="imgSpace" src="images/Rui/Projecto_3/t1.png">
+				</div>
+				<div class="side2"> 
+					<img id="imgSpace" src="images/Rui/Projecto_3/t2.png">
+				</div>
+				<div class="side2"> 
+					<img id="imgSpace" src="images/Rui/Projecto_3/t3.png">
+				</div>
+				
+			</div>
+
+			<div id="nave">   
+				<br><br><br><br><br><br><br><br> 
+				<br><br><br><br> 
+				<br><br><br><br> 
+				<br><br><br><br>    
+			</div>
+
+
+			<div id="grey_space">   <br><br>   </div>
+
+			
+			<div id="nave">  <br> <br> 
+
+				<p id="title3">Exhibition</p>
+				<p id="line3">__________________</p>
+				<p id="projectdescription3">In a superior area to 2000m², the visitor will be going to find projections of particles of creativity preserved in his most pure state. In a dark environment, the light of the projections will reflect on the pieces of the exposed hearts recreating an inner aura</p>
+				
+				<br><br><br><br><br><br><br>
+
+			</div>
+
+
+			<div id="grey_space">   <br><br>   </div>
+
+
+			<video class="vidproj3" width="500" controls poster="images/Rui/Principal/2Play.png">
+		    	<source src="videos/Aura.m4v" type="video/mp4">  
+		  	</video>
+
+		</div>
+	</section>
+
+	
+	<!--PROJECTO 4 -->
+	<section id="Projecto4">
+		<div id="project4">
+
+		<br><br>
+		<div id="grey_space">
+		<br>
+		<p id="title4">94 Lost Cannon</p>
+		<p id="line2">__________________</p>
+		<p id="projectdescription2">94 Lost Cannon is a teaser trailer presenting a LEGO construction model performed by Untold Arts studio whose theme and design is inspired by Ridley Scott's film Alien: The Eighth Passenger. For this, the teaser uses a sense of mystery and science fiction</p>
+		
+		<br><br><br><br>
+		</div>
+		
+		<br><br><br><br>
+		
+		<img src="images/Rui/Projecto_4/fundo-completo.jpg">
+
+		<br><br><br><br>	
+
+		<div id="grey_space">
+		<br> 
+		<p id="title2">Digital Model</p>
+		<p id="line2">__________________</p>
+		<p id="projectdescription2">The model shown was first built on the outside by hand by the Untold Arts studio and then converted each piece into 3D. After that care of the control and application of textures in them. Finally, the beginning of the study is the position of plans to be filmed</p>
+		
+		<br><br><br><br>
+		</div>	 
+
+		<br><br>
+
+		<video class="vidproj4" width="500" controls poster="images/Rui/Principal/2Play.png">
+		    <source src="videos/94_Lost_Cannon_Clip.mp4" type="video/mp4">  
+		</video>
+
+
+		
+
+
+		
+
+			
+
+		</div>
+	</section>
+</div>
+ </div>
+
+
+	<!-- FORMULARIO -->
+
+   <div id="rui_contact" class="modalDialog">
+	    <div>
+			<a href="#close" title="Close" class="close" onclick="changeAgain()">
+				<img src="images/Contactos/Fechar.png" onmousedown="this.src='images/Contactos/Fechar_Click.png'" onmouseleave="this.src='images/Contactos/Fechar.png'">
+			</a>
+			<br>
+			<h1>CONTACT RUI</h1>
+			<h3>Are you interested in a collaboration, partership or do you just want to come by and say hello?</h3>
+			
+			<form id="formContact" action ="envia.php" method ="post">
+				  <h2>NAME<h2>
+				  <input id="nome" type="text" name="firstname" autocomplete="on" placeholder="FIRST">
+				  
+				  <input id="sobrenome" type="text" name="lastname" autocomplete="on" placeholder="LAST"> 
+				  <br>
+
+				  <h2>EMAIL<h2>        
+				  <input id="email" type="email" name="email" autocomplete="on">
+				  <br>
+
+				  <h2>SUBJECT<h2> 
+				  <input id="assunto" type="text" name="subject">
+
+				  <br>
+
+				  <h2>MESSAGE<h2> 
+				  <textarea id="texto" name="message" style=" padding: 15px 205px;"></textarea>
+
+				  <br><br>
+
+				  <input id="buttonSend" type="image" src="images/Contactos/Send.png" form="formContact" value="Submit" alt="Submit" onmouseover="this.src='images/Contactos/Send_houver.png'" onmouseout="this.src='images/Contactos/Send.png'" onmousedown="this.src='images/Contactos/Send.png'">
+				  	
+			</form>
+		</div>
+	
+</div>
+</body>
+</html>

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Michael-About</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+
+	<style>
+        body {
+	        background-image: url('images/Michael/About/about-fundo.jpg');
+	        background-repeat: no-repeat;
+	        background-size: cover; /* for IE9+, Safari 4.1+, Chrome 3.0+, Firefox 3.6+ */
+	        -webkit-background-size: cover; /* for Safari 3.0 - 4.0 , Chrome 1.0 - 3.0 */
+	        -moz-background-size: cover; /* optional for Firefox 3.6 */ 
+	        -o-background-size: cover; /* for Opera 9.5 */
+	        margin: 0; /* to remove the default white margin of body */
+	        padding: 0; /* to remove the default white margin of body */
+	        overflow: hidden;
+	        background-position: right 60px;
+	        background-color: black;
+        }
+    </style>
+
+    <script type="text/javascript">
+		
+		function changeME(){
+
+			// botões
+
+    		document.getElementById('buttonME').src='images/Rui/About/Botao_Me_Down.png'
+			document.getElementById('buttonQualifications').src='images/Rui/About/Botao_Qualifications.png'
+			document.getElementById('buttonEducation').src='images/Rui/About/Botao_Education.png'
+
+			//texto
+			document.getElementById('subtitleAbout').innerHTML ='ME'
+    		document.getElementById('subsubtitleAbout').innerHTML =''
+    		document.getElementById('descriptionAbout').innerHTML ="My name is Michael Esteves, and I’m a portuguese designer and illustrator. I’ve worked one year and na half in a Creative studio in Coimbra, where I developed some skills as a Graphic Design, taking care of some of the pos-production work of our studio. But with this website, I want to show you my old passion, illustration. Since I was a little kid that I’ve allways dreamed about being na artist, and nowadays, I’m glad to let the people know what I like to do and get better every day."
+
+    		document.getElementById('subsubtitleAbout2').innerHTML =''
+    		document.getElementById('descriptionAbout2').innerHTML =''
+    		document.getElementById('subsubtitleAbout3').innerHTML =''
+    		document.getElementById('descriptionAbout3').innerHTML =''
+    		document.getElementById('subsubtitleAbout4').innerHTML =''
+    		document.getElementById('descriptionAbout4').innerHTML =''
+    
+    	}
+
+    	function changeQualifications(){
+
+    		document.getElementById('buttonME').src='images/Rui/About/Botao_Me.png'
+      		document.getElementById('buttonQualifications').src='images/Rui/About/Botao_Qualifications_Down.png'
+    		document.getElementById('buttonEducation').src='images/Rui/About/Botao_Education.png'
+
+    		//texto
+    		document.getElementById('subtitleAbout').innerHTML ='QUALIFICATIONS'
+    		document.getElementById('subsubtitleAbout').innerHTML ='Language skills'
+    		document.getElementById('descriptionAbout').innerHTML ='Portuguese and French, as native speaker, and English'
+
+    		document.getElementById('subsubtitleAbout2').innerHTML ='Software toolbox used'
+    		document.getElementById('descriptionAbout2').innerHTML ='Adobe Photoshop, Adobe Illustrator, Adobe InDesign, Adobe Premiere, Cinema4D, Audicity, Microsoft aplications.'
+
+    		document.getElementById('subsubtitleAbout3').innerHTML =''
+    		document.getElementById('descriptionAbout3').innerHTML =''
+    		document.getElementById('subsubtitleAbout4').innerHTML =''
+    		document.getElementById('descriptionAbout4').innerHTML =''
+    	
+    	}
+
+    	function changeEducation(){
+
+    		document.getElementById('buttonME').src='images/Rui/About/Botao_Me.png'
+    		document.getElementById('buttonQualifications').src='images/Rui/About/Botao_Qualifications.png'
+    		document.getElementById('buttonEducation').src='images/Rui/About/Botao_Education_Down.png'
+
+
+    		//texto
+    		document.getElementById('subtitleAbout').innerHTML ='EDUCATION'
+    		document.getElementById('subsubtitleAbout').innerHTML ='2007-2010'
+    		document.getElementById('descriptionAbout').innerHTML ='Attended elementery school, José Estêvão – Visual Arts.'
+
+    		document.getElementById('subsubtitleAbout2').innerHTML ='2010-2013'
+    		document.getElementById('descriptionAbout2').innerHTML ='Graduated with a Degree in Comunicação e Design Multimédia at ESEC.'
+
+    		document.getElementById('subsubtitleAbout3').innerHTML ='2015-Now'
+    		document.getElementById('descriptionAbout3').innerHTML ="To finish the master's degree in Design and Multimedia at the University of Coimbra."
+
+    		document.getElementById('subsubtitleAbout4').innerHTML =''
+    		document.getElementById('descriptionAbout4').innerHTML =''
+    	}
+
+
+    	function changeColor(){
+
+    		document.getElementById('contactLink').style="color: yelllow;"
+    		document.getElementById('aboutLink').style= "color: white;"
+
+    	}
+
+
+    	function changeAgain(){
+
+    		document.getElementById('contactLink').style="color: white;"
+    		document.getElementById('aboutLink').style= "color: yellow;"
+    	
+    	}
+
+    	
+
+
+
+
+
+
+
+
+    </script>
+
+</head>
+<body>
+
+	<div>
+		<ul class="nav">
+		  <li><a id="profilesLink" href="index.html">Profiles</a></li>
+		  <li><img id="ponto" src="images/Menu/ponto.png"></li>
+		  <li><a id="projectsLinkAbout" href="michael_projectos.html">Projects</a></li>
+		  <li><img id="ponto" src="images/Menu/ponto.png"></li>
+		  <li><a id="aboutLink" style="color:yellow;" href="michael_about.html">About</a></li>
+		  <li><img id="ponto" src="images/Menu/ponto.png"></li>
+		  <li><a id="contactLink" href="#michael_contact" onClick="changeColor()">Contact</a></li>
+		</ul>
+	</div>
+
+
+	<div id="about-michael">
+		<div id="about-michael">
+			<img id="about-image" src="images/Michael/About/about-left.png">
+		</div>
+		<div id="about-text">
+			<p id="titleAbout">ABOUT</p>
+			<p id="subtitleAbout">ME</p>
+			<p id="subsubtitleAbout"></p>
+			<p id="descriptionAbout">My name is Michael Esteves, and I’m a portuguese designer and illustrator. I’ve worked one year and na half in a Creative studio in Coimbra, where I developed some skills as a Graphic Design, taking care of some of the pos-production work of our studio. But with this website, I want to show you my old passion, illustration. Since I was a little kid that I’ve allways dreamed about being na artist, and nowadays, I’m glad to let the people know what I like to do and get better every day.</p>
+		
+			<p id="subsubtitleAbout2"></p>
+			<p id="descriptionAbout2"></p>
+			<p id="subsubtitleAbout3"></p>
+			<p id="descriptionAbout3"></p>
+			<p id="subsubtitleAbout4"></p>
+			<p id="descriptionAbout4"></p>
+			
+
+
+			
+			<div id="buttons">
+				
+
+				<div class="sideAbout"> 
+					<img id="buttonME" onClick="changeME()" type="button" src="images/Rui/About/Botao_Me_Down.png" >
+				</div>
+
+				<div class="sideAbout"> 
+					<img id="buttonEducation" onClick="changeEducation()" type="button" src="images/Rui/About/Botao_Education.png">
+				</div>
+
+				<div class="sideAbout"> 
+					<img id="buttonQualifications" onClick="changeQualifications()" type="button" src="images/Rui/About/Botao_Qualifications.png">	
+				</div>
+
+
+			</div>
+
+		</div>
+
+	</div>
+
+
+
+
+	<!-- FORMULARIO -->
+	<div id="michael_contact" class="modalDialog">
+	    <div>
+			<a href="#close" title="Close" class="close" onclick="changeAgain()">
+				<img src="images/Contactos/Fechar.png" onmousedown="this.src='images/Contactos/Fechar_Click.png'" onmouseleave="this.src='images/Contactos/Fechar.png'">
+			</a>
+			<br>
+			<h1>CONTACT Michael</h1>
+			<h3>Are you interested in a collaboration, partership or do you just want to come by and say hello?</h3>
+			
+			<form id="formContact" action ="enviaMichael.php" method ="post">
+				  <h2>NAME<h2>
+				  <input id="nome" type="text" name="firstname" autocomplete="on" placeholder="FIRST">
+				  
+				  <input id="sobrenome" type="text" name="lastname" autocomplete="on" placeholder="LAST"> 
+				  <br>
+
+				  <h2>EMAIL<h2>        
+				  <input id="email" type="email" name="email" autocomplete="on">
+				  <br>
+
+				  <h2>SUBJECT<h2> 
+				  <input id="assunto" type="text" name="subject">
+
+				  <br>
+
+				  <h2>MESSAGE<h2> 
+				  <textarea id="texto" name="message" style=" padding: 15px 205px;"></textarea>
+
+				  <br><br>
+
+				  <input id="buttonSend" type="image" src="images/Contactos/Send.png" form="formContact" value="Submit" alt="Submit" onmouseover="this.src='images/Contactos/Send_houver.png'" onmouseout="this.src='images/Contactos/Send.png'" onmousedown="this.src='images/Contactos/Send.png'">
+				  	
+			</form>
+		</div>
+	</div>
+
+
+
+</body>
+</html>
